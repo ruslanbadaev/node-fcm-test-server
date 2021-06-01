@@ -1,5 +1,4 @@
 require("dotenv").config();
-
 const FCM = require("fcm-node");
 const serverKey = process.env.SERVER_KEY;
 const fcm = new FCM(serverKey);
